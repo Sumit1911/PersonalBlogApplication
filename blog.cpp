@@ -258,7 +258,10 @@ class Blogs {
         cout<<"------------------------------------------------------------------------"<<endl;
         cout<<">"<<writeBlog<<endl;
         cout<<endl;
+        string comment;
         cout<<"Comments : ";
+        cin>>comment;
+        cout<<"Your comment saved!"<<endl;
         selectOption();
     }
     void logOut() {
@@ -268,7 +271,9 @@ class Blogs {
 
 int main() {
     Blogs b;
-    b.enter();
+    // b.enter();
+    // b.Account();
+    b.create();
     //cout<<"-----------------------------------------------------------------------"<<endl;
     
     return 0;
